@@ -1,47 +1,59 @@
-# Jupyter/Colab notebooks
-.ipynb_checkpoints/
-*.ipynb_save
-*.ipynb_checkpoints
-
-# Python cache and builds
+# Python
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
 *.so
-*.egg
-*.egg-info/
-dist/
-build/
 
 # Virtual environments
-.env
-.venv
+.env/
+.venv/
 env/
 venv/
 ENV/
-*.conda
-*.virtualenv
+*.env
+*.venv
 
-# Logs
+# Jupyter / Colab Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*.ipynb_save
+.gdrive
+.goutputstream-*
+
+# Logs & cache
 *.log
-
-# Data files (datasets)
-*.csv
-*.tsv
-*.json
-*.xlsx
-*.xls
-
-# Model files (trained ML models)
-*.pkl
+*.out
+*.err
+*.dat
+*.pickle
 *.joblib
 *.h5
 *.hdf5
+*.json
+*.csv~
+*.tmp
+*.bak
+*.old
 
-# OS specific junk files
+# Streamlit
+.streamlit/
+*.db
+
+# Pyngrok / Ngrok
+.ngrok2/
+ngrok.yml
+*.ngrok.log
+
+# IDE / OS Specific
 .DS_Store
 Thumbs.db
+.vscode/
+.idea/
+*.swp
 
-# Colab specific
-*.bak
+# Build / Distribution
+dist/
+build/
+*.egg-info/
+*.egg
