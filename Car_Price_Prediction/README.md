@@ -14,11 +14,7 @@ Car_Prediction/
 │── car_prediction.ipynb       # Jupyter notebook with code and analysis
 │── requirements.txt           # Dependencies
 │── car data.csv               # Dataset
-│── best_xgb_model.joblib      # Trained XGBoost model
-│── catboost_training.json     # CatBoost training metadata
-│── model_meta.json            # Model metadata/configuration
-│── learn_error.tsv            # CatBoost training error log
-│── time_left.tsv              # CatBoost time left info
+
 ```
 
 ---
