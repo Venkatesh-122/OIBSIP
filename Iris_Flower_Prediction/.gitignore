@@ -1,0 +1,47 @@
+# Jupyter/Colab notebooks
+.ipynb_checkpoints/
+*.ipynb_save
+*.ipynb_checkpoints
+
+# Python cache and builds
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+*.conda
+*.virtualenv
+
+# Logs
+*.log
+
+# Data files (datasets)
+*.csv
+*.tsv
+*.json
+*.xlsx
+*.xls
+
+# Model files (trained ML models)
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+
+# OS specific junk files
+.DS_Store
+Thumbs.db
+
+# Colab specific
+*.bak
