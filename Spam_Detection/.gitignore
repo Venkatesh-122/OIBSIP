@@ -1,0 +1,32 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Project-specific 
+# If dataset is large, ignore it. Otherwise, keep it for reproducibility.
+# spam.csv  
+
+# If models are very large, ignore them. Otherwise, keep them so app.py works.
+# spam_classifier_nb.pkl
+# vectorizer.pkl
