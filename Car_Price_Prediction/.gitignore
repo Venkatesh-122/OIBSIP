@@ -1,0 +1,54 @@
+# Jupyter/Colab notebooks
+.ipynb_checkpoints/
+*.ipynb_save
+*.ipynb_checkpoints
+
+# Python cache and builds
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+*.conda
+*.virtualenv
+
+# Logs
+*.log
+
+# Data files (optional - remove if you want CSV in repo)
+*.tsv
+*.json
+*.xlsx
+*.xls
+# Uncomment the next line if you DON'T want car data in repo
+# *.csv
+
+# Model files (trained ML models)
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+
+# CatBoost specific
+catboost_training.json
+learn_error.tsv
+model_meta.json
+time_left.tsv
+
+# OS specific junk files
+.DS_Store
+Thumbs.db
+
+# Colab specific
+*.bak
