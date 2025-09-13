@@ -16,8 +16,6 @@ Spam_Detection/
 │── app.py                  # Streamlit web app
 │── requirements.txt        # Dependencies
 │── spam.csv                # Dataset
-│── spam_classifier_nb.pkl  # Trained Naive Bayes model
-│── vectorizer.pkl          # TF-IDF vectorizer
 ```
 
 ---
