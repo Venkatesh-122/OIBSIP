@@ -11,11 +11,13 @@ It demonstrates **data preprocessing, feature engineering, visualization, model 
 
 ```
 
-Car\_Prediction/
+Car_Prediction/
 │── README.md                  # Project documentation
-│── car\_prediction.ipynb       # Jupyter notebook with code and analysis
+│── app.py                     # Streamlit app for car price prediction
+│── car_prediction.ipynb        # Jupyter notebook with code and analysis
 │── requirements.txt           # Dependencies
 │── car data.csv               # Dataset
+│── best_xgb_model.joblib      # Trained XGBoost model
 
 ```
 
