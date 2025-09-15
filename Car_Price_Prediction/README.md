@@ -11,13 +11,13 @@ It demonstrates **data preprocessing, feature engineering, visualization, model 
 
 ```
 
-Car_Prediction/
+Car\_Prediction/
 │── README.md                  # Project documentation
 │── app.py                     # Streamlit app for car price prediction
-│── car_prediction.ipynb        # Jupyter notebook with code and analysis
+│── car\_prediction.ipynb       # Jupyter notebook with code and analysis
 │── requirements.txt           # Dependencies
 │── car data.csv               # Dataset
-│── best_xgb_model.joblib      # Trained XGBoost model
+│── best\_xgb\_model.joblib      # Trained XGBoost model
 
 ```
 
@@ -138,5 +138,3 @@ or contact the maintainer: **[venkateshvenkateah789@gmail.com](mailto:venkateshv
 ## 📜 License
 
 This project is licensed under the [MIT License](../LICENSE).
-
-```
