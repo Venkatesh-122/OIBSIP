@@ -9,7 +9,7 @@ It demonstrates **data preprocessing, feature engineering, visualization, model 
 
 ## 📂 Project Structure
 
-```
+---
 
 Car\_Prediction/
 │── README.md                  # Project documentation
@@ -19,7 +19,7 @@ Car\_Prediction/
 │── car data.csv               # Dataset
 │── best\_xgb\_model.joblib      # Trained XGBoost model
 
-```
+---
 
 ---
 
